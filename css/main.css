@@ -1,0 +1,23 @@
+:root {
+    --vermelho: #E50914; /* Elemento raíz é possível definir variáveis no CSS*/
+    --preto: #141414;
+}
+
+/* Reset de Configurações */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preto); /* Função var para referenciar variáveis*/
+}
+
+header .container {
+
+}
+
+header .logo {
+    color: var(--vermelho);
+}
