@@ -9,6 +9,16 @@
     }
 }
 
+@media screen and (max-width: 1800px) {
+    .titulo-filme {
+        width: 88%;
+    }
+
+    .img-filme {
+        height: 270px;
+    }
+}
+
 @media screen and (max-width: 1224px) {
     .titulo-filme {
         width: 88%;
@@ -16,6 +26,16 @@
 
     .img-filme {
         height: 250px;
+    }
+}
+
+@media screen and (max-width: 1115px) {
+    .titulo-filme {
+        width: 88%;
+    }
+
+    .img-filme {
+        height: 200px;
     }
 }
 
@@ -28,6 +48,92 @@
 
     .img-filme {
         height: 150px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    header nav{
+        font-size: 0.65em;
+    }
+
+    .descricao-filme {
+        font-size: 0.65;
+    }
+
+    .img-filme {
+        height: 80px;
+        margin-left: 20px;
+    }
+
+    .botao {
+        margin-top: 5px;
+    }
+
+    .minha-lista {
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    header nav{
+        font-size: 0.65em;
+    }
+
+    .descricao-filme {
+        font-size: 0.65;
+    }
+
+    .img-filme {
+        height: 80px;
+        margin-left: 20px;
+    }
+
+    .botao {
+        margin-top: 5px;
+    }
+
+    .minha-lista {
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    header nav{
+        font-size: 0.65em;
+    }
+
+    .descricao-filme {
+        font-size: 0.65;
+    }
+
+    .img-filme {
+        height: 80px;
+        margin-left: 20px;
+    }
+
+    .botao {
+        margin-top: 5px;
+    }
+
+    .minha-lista {
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .minha-lista {
+        font-size: small;
+        padding-top: 30px;
+    }
+
+    main .filme-principal .descricao-filme {
+        margin-bottom: 7px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .descricao-filme {
+        width: 80%;
     }
 }
 

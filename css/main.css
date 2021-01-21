@@ -102,6 +102,7 @@ main .filme-principal .descricao-filme {
     outline: none;
     border-radius: 4px;
     font-weight: bold;
+    margin-top: 5px;
 }
 
 .botao:hover {
